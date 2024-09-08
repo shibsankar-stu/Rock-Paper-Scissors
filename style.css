@@ -117,10 +117,10 @@ h3{
     }
     p{
         width: 350px;
-        height: 100px;
+        height: 60px;
     }
     span{
-        margin-left: 30%;
+        margin-left: 25%;
     }
     .display_score{
         flex-direction: column;
