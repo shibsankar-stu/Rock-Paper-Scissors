@@ -1,11 +1,13 @@
 let rules = document.getElementById('rules');
 rules.addEventListener("click", () => {
     rules.style.height = "100%";
+    p_small.style.display = "block"
 })
 
 let p_small = document.getElementById("p_small")
 p_small.addEventListener("click", () => {
     rules.style.height = "63.6px";
+     p_small.style.display = "none"
 })
 
 let play_again = document.getElementById("play_again");
